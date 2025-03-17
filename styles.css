@@ -1822,6 +1822,8 @@ body::before {
   filter: blur(15px);
   z-index: -1;
 }
+
+
 nav {
   background: #333;
   padding: 10px;
@@ -1848,6 +1850,7 @@ nav a:hover::after {
   width: 100%;
   left: 0;
 }
+
 .div1 {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -2266,6 +2269,24 @@ h4{
   color: black;
   font-weight: 600;
 }
+.buttoningestion {
+  display: inline-block;
+  background: linear-gradient(45deg, #3b1803, #5c3c05);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.buttoningestion:hover {
+  background: linear-gradient(45deg, #913000, #7b1301);
+  transform: scale(1.05);
+}
+
 /*visualixation*/ 
 para{
   padding-left: 10px;
@@ -2278,7 +2299,6 @@ para{
   margin-top: 20px;
 }
 
-/* Table styling */
 table {
   border-collapse: collapse;
   width: 80%; /* Adjust width if needed */
@@ -2287,19 +2307,16 @@ table {
   color: #2C3930; /* Default text color */
 }
 
-/* Header styling */
 thead {
   background-color: #A27B5C; /* Background color for the header */
   color: white; /* Text color for the header */
 }
 
-/* Table cells */
 th, td {
   border: 2px solid black; /* Black border for all cells */
   padding: 10px;
 }
 
-/* Ensure the table looks good on smaller screens */
 @media screen and (max-width: 600px) {
   table {
       width: 100%;
@@ -2307,4 +2324,31 @@ th, td {
 }
 
 
+ul {
+  list-style: none;
+  padding: 0;
+}
 
+ul li {
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+ul li::before {
+  content: '\2714'; /* Checkmark Icon */
+  position: absolute;
+  left: 0;
+  color: #A27B5C;
+  font-weight: bold;
+}
+.button {
+  display: inline-block;
+  background: #A27B5C;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}

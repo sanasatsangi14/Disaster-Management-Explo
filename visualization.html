@@ -21,16 +21,15 @@
     <div class=" para w-full ml-10 pr-5 text-left">Disaster management is a complex and dynamic process that requires efficient resource distribution to minimize damage and loss of life. Effective allocation of resources can significantly improve response time, optimize relief efforts, and enhance the resilience of affected communities. However, the method used to distribute resources plays a crucial role in determining the effectiveness of disaster response strategies.</div>
     <br>
     <div class="para w-full ml-10 pr-5 text-left">This report presents a detailed comparison between two key methods of resource distribution:</div>
-    <br>
     <div class="para w-full ml-10 pr-5 text-left"><span class="font-bold">Equal Distribution  </span>– This method involves allocating resources evenly across all affected areas, regardless of the specific impact severity, population density, or other critical factors. While this approach ensures that every region receives some level of aid, it may not always be the most efficient way to address the varying needs of different areas</div>
     <div class="para w-full ml-10 pr-5 text-left"><span class="font-bold">Data Driven Distribution</span>This method utilizes a Geographic Information System (GIS)-based data ingestion system to analyze various factors such as flood impact severity, population density, rainfall levels, infrastructure damage, and other relevant parameters. By leveraging real-time data and predictive analytics, resources can be allocated more effectively to regions that are in greater need, ensuring a more targeted and optimized disaster response.</div>
     <br>
-    <div class="para w-full ml-10 pr-5 text-left">The objective of this report is to compare these two distribution methods by evaluating their advantages, limitations, and real-world implications. The analysis will highlight how technological advancements, such as GIS-based systems, can enhance disaster preparedness and response by enabling a more intelligent and needs-based allocation of resources.</div>
+    
     <br>
     <div class="font-bold">🌊 Scenario 1: Equal Distribution of Resources (No Data-Driven Analysis)</div>
     <div class="para w-full ml-10 pr-5 text-left">In this case, resources are distributed uniformly across all affected regions without analyzing datasets like population density, water levels, rainfall, or critical infrastructure.</div>
     <br>
-    <ul class=" font-bold w-full ml-10 pr-5 text-left">📌 Assumptions for Equal Distribution Approach
+    <ul class=" font-bold w-full ml-10 pr-5 text-left"> Assumptions for Equal Distribution Approach
        <li>Resources (water supply, food, medical aid kits, evacuation boats, rescue teams, shelters, etc.) are spread evenly across the affected districts.</li>
        <li>Authorities rely on manual assessments, past experiences, and estimations instead of real-time data.</li>
        <li>Delayed response since information flow is unstructured and lacks prioritization.</li>
@@ -48,23 +47,23 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Population Density</td>
+                    <td><strong>Population Density</strong> </td>
                     <td>Villages with 500 people receive the same aid as towns with 10,000 people, causing shortages in urban areas.</td>
                 </tr>
                 <tr>
-                    <td>Water Levels</td>
+                    <td><strong>Water Levels</strong></td>
                     <td>Areas with extreme flooding (above danger level) receive no extra resources, leading to more casualties.</td>
                 </tr>
                 <tr>
-                    <td>Rainfall Intensity</td>
+                    <td><strong>Rainfall Intensity</strong></td>
                     <td>Areas with lower rainfall but better administration receive the same aid as high-rainfall regions with extreme damage.</td>
                 </tr>
                 <tr>
-                    <td>Critical Infrastructure (Hospitals, Roads, Power Stations)</td>
+                    <td><strong>Critical Infrastructure (Hospitals, Roads, Power Stations)</strong></td>
                     <td>No prioritization for hospitals, leaving patients stranded without electricity and oxygen.</td>
                 </tr>
                 <tr>
-                    <td>Rescue Operations</td>
+                    <td><strong>Rescue Operations</strong></td>
                     <td>Boats and helicopters are deployed in regions with minor flooding, delaying rescue in severely affected areas.</td>
                 </tr>
             </tbody>
@@ -85,8 +84,8 @@
         In this case, we assume a data ingestion system processes datasets to analyze, prioritize, and optimize resource allocation.
     </div>
     <br>
-    <ul class="w-full ml-10 pr-5 text-left border-2 border-black p-4 bg-gray-100">
-        <li class="font-bold">📌 Assumptions for Data-Driven Approach</li>
+    <ul class="font-bold ml-10 pr-5 text-left border-2 border-black p-4 bg-gray-100">
+        Assumptions for Data-Driven Approach
         <li><span class="font-bold">Datasets Available:</span></li>
         <li><span class="font-semibold">Population Density Map</span> – Identifies high-risk, high-population areas for focused relief.</li>
         <li><span class="font-semibold">Real-time Water Level Data</span> – Measures flood severity per district.</li>
@@ -111,7 +110,7 @@
         </thead>
         <tbody>
             <tr>
-                <td><b>Population Density</b></td>
+                <td><b><strong>Population Density</strong> </b></td>
                 <td>Heavily populated areas get <b>more relief materials</b> to match demand.</td>
             </tr>
             <tr>
@@ -155,27 +154,27 @@
     </thead>
     <tbody>
         <tr>
-            <td>Logistics Efficiency</td>
+            <td class="font-bold">Logistics Efficiency</td>
             <td>Delays due to inefficient routing and lack of real-time data.</td>
             <td>Optimized supply chains ensure timely deliveries to high-priority areas.</td>
         </tr>
         <tr>
-            <td>Resource Allocation Fairness</td>
+            <td class="font-bold">Resource Allocation Fairness</td>
             <td>Unequal distribution—some areas receive excess while others face shortages.</td>
             <td>Data ensures equitable allocation based on actual needs.</td>
         </tr>
         <tr>
-            <td>Impact on Vulnerable Populations</td>
+            <td class="font-bold">Impact on Vulnerable Populations</td>
             <td>Delayed response leads to higher risks for elderly, disabled, and children.</td>
             <td>Priority aid reaches vulnerable groups first, reducing casualties.</td>
         </tr>
         <tr>
-            <td>Coordination Among Agencies</td>
+            <td class="font-bold">Coordination Among Agencies</td>
             <td>Lack of synchronization results in redundant or missed efforts.</td>
             <td>Seamless coordination through shared data platforms.</td>
         </tr>
         <tr>
-            <td>Long-Term Recovery</td>
+            <td class="font-bold">Long-Term Recovery</td>
             <td>Slower recovery due to inefficient planning and resource mismanagement.</td>
             <td>Accelerated rebuilding efforts with targeted, data-driven strategies.</td>
         </tr>
