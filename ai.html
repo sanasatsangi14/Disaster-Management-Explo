@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic AI</title>
+    <style>
+        #map { height: 500px; width: 100%; }
+        #info { padding: 10px; font-size: 18px; background: #f8f9fa; border: 1px solid #ddd; margin-bottom: 10px; }
+        .h1 { font-size: 24px; font-weight: bold; margin-bottom: 10px; }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Introduction</a>
+        <a href="ingestion.html">Data Ingestion</a>
+        <a href="visualization.html">Visualization</a>
+        <a href="ai.html">Agentic AI</a>
+    </nav>
+
+    <div class="h1">Agentic AI</div>
+
+    <div id="info">Select an area on the map to get data.</div>
+    <div id="map"></div> <!--yaha map ajayega-->
+
+    <!--csv files-->
+    <div>
+        <a href="floodtamilnadu.csv" target="_blank">TAMIL NADU</a>
+        <a href="floodmumbai.csv" target="_blank">MUMBAI</a>
+        <a href="floodpondicherry.csv" target="_blank">PONDICHERRY</a>
+        <a href="floodwestbengal.csv" target="_blank">WEST BENGAL</a>
+    </div>
+
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+    <script src="map.js"></script>
+
+</body>
+</html>
