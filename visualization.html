@@ -8,7 +8,6 @@
     
 </head>
 <body>
-    <button id="darkModeToggle">🌙 Dark Mode</button>
 
     <nav>
         <a href="index.html">Introduction</a>
@@ -184,7 +183,7 @@
 
 <br>
 
-<div class="python1"><strong>EXAMPLE:</strong>
+<div class="python1"><strong><p class="h1">EXAMPLE: Flood Severity Analysis Using Machine Learning</p></strong>
     <h1>Explorer Analysis & Flood Severity Modeling for Mumbai</h1>
     <p>This section presents an analysis of flood risks in Mumbai using various data parameters. The analysis incorporates manually generated data and machine learning models to assess flood severity.</p>
     
@@ -213,19 +212,37 @@
 </div>
 
     
-<h2>View & Download Jupyter Notebook</h2>
-<p>You can download or view the analysis notebook below:</p>
-<div><a href="mumbai_explo.ipynb" download>Download Notebook</a></div>
-<div><a href="https://nbviewer.org/github/sanasatsangi14/Disaster-Management-Explo/blob/main/mumbai_explo.ipynb" target="_blank">🔍 View in Jupyter nbviewer</a></div>
-<div><a href="vscode://file/C:/Users/ADMIN/OneDrive/Desktop/explo-1/mumbai_explo (1).ipynb" target="_blank">Open in VS Code</a></div>
-<div><a href="https://raw.githubusercontent.com/sanasatsangi14/Disaster-Management-Explo/main/mumbai_explo.ipynb" target="_blank">📘 Download Notebook</a></div>
-
-       
+<h2><strong>You can download or view the analysis notebook below:</strong></h2>
+<!--<div><a href="mumbai.ipynb" download>Download Notebook</a></div>-->
+<!--<div><a href="https://nbviewer.org/github/sanasatsangi14/Disaster-Management-Explo/blob/main/mumbai.ipynb" target="_blank">🔍 View in Jupyter nbviewer</a></div>-->
+<div><a href="vscode://file/C:/Users/ADMIN/OneDrive/Desktop/explo-1/mumbai.ipynb" target="_blank">Open in VS Code (only works is vs code is installed on your device )</a></div>
+<div><a href="https://raw.githubusercontent.com/sanasatsangi14/Disaster-Management-Explo/main/mumbai.ipynb" target="_blank">📘 Download Notebook</a></div>
+<!--<div><a href="https://nbviewer.org/github/sanasatsangi14/Disaster-Management-Explo/blob/main/mumbai.ipynb" target="_blank">📘 View Notebook</a>--></div>
+<!--<div><a href="#" onclick="downloadNotebook(); return false;">🔽 Download Notebook (Alternative Method)</a></div>
+   <script>
+        function downloadNotebook() {
+            fetch('mumbai.ipynb')
+                .then(response => response.blob())
+                .then(blob => {
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.style.display = 'none';
+                    a.href = url;
+                    a.download = 'mumbai.ipynb';
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                })
+                .catch(error => {
+                    console.error('Download failed:', error);
+                    alert('Unable to download the notebook. Please check file location.');
+                });
+        }
+    </script>-->
+<div><a href="https://colab.research.google.com/github/sanasatsangi14/Disaster-Management-Explo/blob/main/mumbai.ipynb" target="_blank">Open Notebook in Google Colab</a></div>
     
     
-    
-    
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
